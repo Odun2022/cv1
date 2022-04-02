@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* styling for hero section */
+.hero_section { 
+    width: 100%;
+    display: flex;
+}
+
+.hero_box{
+    width: 50%;
+    overflow: hidden;
+}
+.hero_box_first_half{
+    padding: 0 4%;
+    margin-top: 13rem;
+    margin-top: 10rem;
+}
+
+.hero_mini_text{
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.hero_name_big_text {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-bottom: 7%;
+    text-transform: uppercase;
+
+}
+
+.hero_long_text {
+    width: 90%;
+    font-weight: 300;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.hero_image {
+    float: right;
+    height: 100%;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero_section {
+        flex-direction: column;
+    }
+    .hero_box {
+        width: fit-content;
+    }
+    .hero_image {
+        height: initial;
+    }
+}
+
+/* styling skill section */
+.skill_section {
+    padding: 5%;
+    background-color: black;
+}
+
+.skill_name {
+    color: gray;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.skills_wrapper {
+    color: wheat;
+    list-style: none;
+    display: flex;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skills_wrapper_list_item {
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact_section {
+    padding: 5%;
+}
+
+.contact_mini_header {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.contact_header_info_wrapper {
+    display: flex;
+     margin-top: 1%;
+    justify-content: space-between;
+}
+
+.contact_header_greeting {
+    max-width: 50%;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.contact_form_wrapper {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.contact_form_input, .contact_form_textarea {
+    padding: 1.5rem;
+    color: black;
+    font-size: 1rem;
+    border: transparent;
+    margin-bottom: 1%;
+}
+
+.contact_form_button {
+    padding: 1rem;
+    color: #000;
+    width: max-content;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+    
+
+/* styling for social icons */
+.social_icons_wrapper {
+    max-width:30%;
+    text-align: left;
+}
+
+.social_icons_item {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.social_icons_img {
+    width: 55px;
+    height: 55px;
+}
+
+/* styling for footer section */
+.footer_section {
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    align-items: center;
+
+}
+
+.footer_text {
+    padding-left: 1rem;
+    border-left: 5px solid black;
+}
+
